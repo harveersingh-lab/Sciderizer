@@ -13,14 +13,12 @@
 <body>
 
 <!-- Fixed Header Container -->
-<div class="fixed-header-wrapper">
-  <!-- Top Marquee Ticker -->
-  <div class="announcement-marquee">
-    <div class="marquee-track">
-      <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
-      <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
-    </div>
+<div class="ticker-bar">
+  <div class="ticker-track">
+    <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
+    <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
   </div>
+</div>
   <!-- Header Navigation Bar -->
   <header class="navbar">
     <a href="index.html" class="logo-link">
@@ -63,40 +61,74 @@
 </section>
 
 <!-- Main Content Section -->
-<main id="content-section" class="main-content">
-  <div class="content-container">
-    <div class="cards-stack">
-      <article class="content-card">
-        <p class="card-text">
+<main id="content-section" class="about-main">
+
+  <!-- Section 1: The struggle -->
+  <section class="about-split">
+    <div class="container about-split-grid">
+      <div class="about-photo-stack">
+        <img class="about-photo main" src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80" alt="Student working in a science lab" loading="lazy" />
+        <img class="about-photo inset" src="https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=500&q=80" alt="Students collaborating on a project" loading="lazy" />
+        <span class="about-sticker">STEM<br>BOUND</span>
+      </div>
+      <div class="about-copy">
+        <span class="card-tag">THE CHALLENGE</span>
+        <p class="about-text">
           Finding the right career path is no easy task, especially not for high schoolers. Much less for high schoolers in science. Often times, these students struggle to decide on a path to walk for their career for any number of limitations. Maybe they know what they want but are unsure how to get there. Maybe they know the field they're passionate about but unsure about the options within it. Maybe they're completely lost.
         </p>
-      </article>
-      <article class="content-card highlight-card">
-        <p class="card-text bold-text">
-          Sciderizer understands that. And the leaders behind it want to help.
-        </p>
-      </article>
-      <article class="content-card">
-        <p class="card-text">
+        <div class="about-maybe">
+          <span>Unsure how to get there</span>
+          <span>Unsure of the options</span>
+          <span>Completely lost</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Full-width statement band -->
+  <section class="about-band">
+    <div class="container">
+      <div class="about-band-icon">
+        <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6m-3 3v-3M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7z"/></svg>
+      </div>
+      <p class="about-band-text">Sciderizer understands that. And the leaders behind it want to help.</p>
+    </div>
+  </section>
+
+  <!-- Section 3: The leaders -->
+  <section class="about-split reverse">
+    <div class="container about-split-grid">
+      <div class="about-copy">
+        <span class="card-tag green-tag">THE LEADERS</span>
+        <p class="about-text">
           The leaders behind the site were in the same situation once before, and worked to find a way to help lost students find their way. These leaders and their partners worked to create Sciderizer, a tool that narrows down the interests, strengths, and weaknesses of students in STEM. As Steve Jobs implied, connecting these dots from one's past is a crucial step in understanding your career path. Sciderizer provides insight on its user's future in science, acting as a first step for them in setting and achieving their goals.
         </p>
-      </article>
+        <div class="about-dots" aria-hidden="true">
+          <span></span><i></i><span></span><i></i><span></span><i></i><span class="end"></span>
+        </div>
+      </div>
+      <div class="about-photo-stack green">
+        <img class="about-photo main" src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80" alt="Students building and testing a robot" loading="lazy" />
+        <img class="about-photo inset" src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80" alt="Code on a screen" loading="lazy" />
+      </div>
     </div>
+  </section>
 
-    <!-- Graphics Container -->
-    <div class="graphics-container">
-      <p class="section-lead">
+  <!-- Section 4: Call to action over photo -->
+  <section class="about-cta">
+    <div class="container">
+      <p class="about-cta-lead">
         Through a personalized test, the student can get an idea for their future, and it all starts with....
         <br /> ... a short test.
       </p>
-      <div class="graphics-row">
-<figure class="photo-tile"><img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=700&q=80" alt="Explore" loading="lazy" /><figcaption>Explore</figcaption></figure>
-<figure class="photo-tile"><img src="https://images.unsplash.com/photo-1564325724739-bae0bd08762c?auto=format&fit=crop&w=700&q=80" alt="Discover" loading="lazy" /><figcaption>Discover</figcaption></figure>
-<figure class="photo-tile"><img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80" alt="Build" loading="lazy" /><figcaption>Build</figcaption></figure>
+      <div class="about-cta-tiles">
+        <figure class="photo-tile"><img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=700&q=80" alt="Explore" loading="lazy" /><figcaption>Explore</figcaption></figure>
+        <figure class="photo-tile"><img src="https://images.unsplash.com/photo-1564325724739-bae0bd08762c?auto=format&fit=crop&w=700&q=80" alt="Discover" loading="lazy" /><figcaption>Discover</figcaption></figure>
+        <figure class="photo-tile"><img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80" alt="Build" loading="lazy" /><figcaption>Build</figcaption></figure>
       </div>
-      <div style="margin-top:2rem;"><a href="test.html" class="btn-pill btn-green">Take the Test &rarr;</a></div>
+      <a href="test.html" class="btn-pill btn-green">Take the Test &rarr;</a>
     </div>
-  </div>
+  </section>
 </main>
 
 <!-- Footer -->
@@ -104,6 +136,6 @@
   <p>&copy; 2026 SCIDERIZER. All Rights Reserved.</p>
 </footer>
 
-<script src="sound.js"></script>
+<script src="layout.js"></script>
 </body>
 </html>
