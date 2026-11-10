@@ -16,11 +16,11 @@
 <div class="fixed-header-wrapper">
   <!-- Ticker Bar -->
   <div class="ticker-bar">
-  <div class="ticker-track">
-    <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
-    <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
+    <div class="ticker-track">
+      <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
+      <span>NO CONFUSION &bull; 100% STEM TALENT &bull; CAREER READY &bull; UNLOCK YOUR POTENTIAL &bull; SCIDERIZER BIO </span>
+    </div>
   </div>
-</div>
   <!-- Header Navigation Bar -->
   <header class="navbar">
     <a href="index.html" class="logo-link">
@@ -70,12 +70,13 @@
       <button class="tab-btn" onclick="filterGrade('grade10', this)">10th / Rising 11th</button>
       <button class="tab-btn" onclick="filterGrade('grade11', this)">11th / Rising 12th</button>
       <button class="tab-btn" onclick="filterGrade('internships', this)">Internships</button>
+      <button class="tab-btn" onclick="filterGrade('mcst', this)">MCST</button>
     </div>
 
     <!-- Programs Grid -->
     <div class="programs-grid">
       <!-- HOSA -->
-      <div class="program-card grade9 grade10 grade11">
+      <div class="program-card grade9 grade10 grade11 mcst">
         <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="HOSA Healthcare Research" class="program-img" />
         <span class="program-type">HEALTHCARE & CTSO</span>
         <h3>HOSA: Future Health Professionals</h3>
@@ -88,7 +89,7 @@
       </div>
 
       <!-- TSA -->
-      <div class="program-card grade9 grade10 grade11">
+      <div class="program-card grade9 grade10 grade11 mcst">
         <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Technology Student Association" class="program-img" />
         <span class="program-type">COMPETITION & STEM</span>
         <h3>Technology Student Association (TSA)</h3>
@@ -101,7 +102,7 @@
       </div>
 
       <!-- SkillsUSA -->
-      <div class="program-card grade9 grade10 grade11">
+      <div class="program-card grade9 grade10 grade11 mcst">
         <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="SkillsUSA Technical Training" class="program-img" />
         <span class="program-type">SKILLED TRADES & TECH</span>
         <h3>SkillsUSA</h3>
@@ -137,7 +138,7 @@
           <span>2 weeks</span>
           <span>Grades 9-10</span>
         </div>
-        <a href="https://www.libertysciencecenter.org" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
+        <a href="https://lsc.org/education/educators/partners-in-science" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
       </div>
 
       <!-- TCNJ Science Summer Program -->
@@ -165,7 +166,7 @@
           <span>Sophomores & Juniors</span>
           <span>Pittsburgh, PA</span>
         </div>
-        <a href="https://www.cmu.edu/pre-college" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
+        <a href="https://www.cmu.edu/pre-college/academic-programs/computational-biology.html" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
       </div>
 
       <!-- Princeton Science Outreach -->
@@ -182,11 +183,11 @@
         <a href="https://research.princeton.edu" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
       </div>
 
-      <!-- Talon Biomarkers (Original) -->
+      <!-- Talon Biomarkers -->
       <div class="program-card internships">
         <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=600&q=80" alt="Biomedical Assay Lab" class="program-img" />
         <span class="program-type">INTERNSHIP</span>
-        <h3>Talon Biomarkers</h3>
+        <h3>Talon Biomarkers: About the Association</h3>
         <p class="program-desc">Biomedical and assay laboratory setting experience for students interested in clinical research, testing, and diagnostic biomarker analysis.</p>
         <div class="program-details">
           <span>Flexible / Summer</span>
@@ -195,11 +196,65 @@
         <a href="https://talonbiomarkers.com" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
       </div>
 
-      <!-- AEOP (Original) -->
+      <!-- Morris Township Environmental Center -->
+      <div class="program-card internships">
+        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80" alt="Environmental Center" class="program-img" />
+        <span class="program-type">ENVIRONMENTAL INTERNSHIP</span>
+        <h3>Morris Township Environmental Center: Main Page</h3>
+        <p class="program-desc">Hands-on opportunities in local environmental science, ecological research, sustainability initiatives, and community conservation.</p>
+        <div class="program-details">
+          <span>Seasonal / Flexible</span>
+          <span>Grades 9-12</span>
+          <span>Morris Township, NJ</span>
+        </div>
+        <a href="https://www.morristwp.com" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
+      </div>
+
+      <!-- Raincross Pharmacy -->
+      <div class="program-card internships">
+        <img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=600&q=80" alt="Pharmacy Experience" class="program-img" />
+        <span class="program-type">PHARMACY INTERNSHIP</span>
+        <h3>Raincross Pharmacy: Main Page</h3>
+        <p class="program-desc">Practical exposure to pharmaceutical care, patient operations, prescription workflow, and clinical healthcare settings.</p>
+        <div class="program-details">
+          <span>Part-Time / Summer</span>
+          <span>High School / Pre-Pharmacy</span>
+        </div>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
+      </div>
+
+      <!-- Endocrine Consultants of Morris County (ECMC) -->
+      <div class="program-card internships">
+        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80" alt="Medical Clinic" class="program-img" />
+        <span class="program-type">CLINICAL INTERNSHIP</span>
+        <h3>Endocrine Consultants of Morris County (ECMC): Main Page</h3>
+        <p class="program-desc">Clinical shadowing and practical experience in endocrinology, patient management, and specialized medical clinic operations.</p>
+        <div class="program-details">
+          <span>Clinical Internship</span>
+          <span>High School / Pre-Med</span>
+          <span>Morris County, NJ</span>
+        </div>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
+      </div>
+
+      <!-- Jefferson Health: Clinical Trials -->
+      <div class="program-card internships">
+        <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=600&q=80" alt="Clinical Research Trials" class="program-img" />
+        <span class="program-type">CLINICAL RESEARCH</span>
+        <h3>Jefferson Health: Clinical Trials</h3>
+        <p class="program-desc">Explore clinical trial operations, medical research protocols, and healthcare innovation within a regional health network.</p>
+        <div class="program-details">
+          <span>Research Internship</span>
+          <span>Grades 10-12</span>
+        </div>
+        <a href="https://www.jeffersonhealth.org" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
+      </div>
+
+      <!-- AEOP -->
       <div class="program-card internships">
         <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80" alt="Army Educational Outreach STEM Lab" class="program-img" />
         <span class="program-type">INTERNSHIP</span>
-        <h3>AEOP Internships and Fellowships</h3>
+        <h3>AEOP Internships and Fellowships: Information</h3>
         <p class="program-desc">Army Educational Outreach Program offering paid STEM research internships with university faculty and army research labs nationwide.</p>
         <div class="program-details">
           <span>Summer / Multi-Week</span>
@@ -207,58 +262,6 @@
           <span>Nationwide / Remote</span>
         </div>
         <a href="https://www.usaeop.com" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
-      </div>
-
-      <!-- Morris Township Environmental Center (NEW) -->
-      <div class="program-card internships">
-        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80" alt="Environmental Science & Nature Center" class="program-img" />
-        <span class="program-type">ENVIRONMENTAL INTERNSHIP</span>
-        <h3>Morris Township Environmental Center</h3>
-        <p class="program-desc">Hands-on experience in local conservation, wildlife habitat protection, environmental data collection, and community sustainability initiatives.</p>
-        <div class="program-details">
-          <span>Seasonal / Flexible</span>
-          <span>Morris Township, NJ</span>
-        </div>
-        <a href="https://www.morristwp.com" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
-      </div>
-
-      <!-- Raincross Pharmacy (NEW) -->
-      <div class="program-card internships">
-        <img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=600&q=80" alt="Clinical Pharmacy and Health Sciences" class="program-img" />
-        <span class="program-type">PHARMACY INTERNSHIP</span>
-        <h3>Raincross Pharmacy</h3>
-        <p class="program-desc">Practical exposure to pharmaceutical operations, clinical compounding, medication therapy oversight, and patient-centered healthcare delivery.</p>
-        <div class="program-details">
-          <span>Part-Time / Summer</span>
-          <span>Clinical & Pharmacy</span>
-        </div>
-        <a href="https://www.raincrosspharmacy.com" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
-      </div>
-
-      <!-- Endocrine Consultants of Morris County (NEW) -->
-      <div class="program-card internships">
-        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80" alt="Endocrine Medical Research Lab" class="program-img" />
-        <span class="program-type">MEDICAL INTERNSHIP</span>
-        <h3>Endocrine Consultants of Morris County (ECMC)</h3>
-        <p class="program-desc">Clinical shadowing and research exposure in endocrinology, metabolic health diagnostics, diabetes management, and patient care systems.</p>
-        <div class="program-details">
-          <span>Clinical / Research</span>
-          <span>Morris County, NJ</span>
-        </div>
-        <a href="https://www.ecmc.health" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
-      </div>
-
-      <!-- Jefferson Health: Clinical Trials (NEW) -->
-      <div class="program-card internships">
-        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Clinical Trials and Medical Research" class="program-img" />
-        <span class="program-type">CLINICAL TRIALS</span>
-        <h3>Jefferson Health: Clinical Trials</h3>
-        <p class="program-desc">Immersive experience in clinical trial protocols, data collection, regulatory compliance, and translational medical research within a hospital network.</p>
-        <div class="program-details">
-          <span>Clinical Research</span>
-          <span>Jefferson Health System</span>
-        </div>
-        <a href="https://www.jeffersonhealth.org/clinical-trials" target="_blank" rel="noopener noreferrer" class="program-btn">Visit Website &rarr;</a>
       </div>
     </div>
 
@@ -276,7 +279,7 @@
   </div>
 </footer>
 
-<script src="sound.js"></script>
+<script src="layout.js"></script>
 <script>
 function filterGrade(grade, btnElement) {
   document.querySelectorAll('.filter-tabs .tab-btn').forEach(b => b.classList.remove('active'));
